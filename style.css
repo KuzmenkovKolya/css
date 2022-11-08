@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{ background-color: rgb(105, 105, 105);
+    font-size:16px;
+    font-weight:normal;
+    font-family: 'Roboto', sans-serif;
+}
+.avatar{width:300px;
+        border-radius:60px;
+        box-shadow: 4px 4px 14px rgba(0,0,0,25);       
+}
+.info p {
+    color:#86898f;
+    margin:0;
+    font-style: italic;
+    font-weight:bold;
+    text-decoration: none;
+ }
+ .info{
+   display:flex;
+   margin-bottom: 20px;
+}
+.info-text{
+   margin-left: 40px;
+}
+.info-text h4{
+   padding-bottom: 5px;
+}
+ .container{
+    max-width: 750px;
+    margin:auto;
+ }
+ .social{
+    background-color: red;
+ }
+ a{color:rgb(32, 32, 32);
+   text-decoration: none;   
+   
+}
+a:hover{text-decoration: underline;
+
+}
+a:active{color:aqua;}
+.cards{background-color: rgb(89, 172, 187);
+   border-radius:15px;
+   padding:15px 20px;
+   margin-bottom: 20px;
+}
+.bg-purple{background-color: inherit;}
+.bg-blue{background-color: rgb(85, 79, 182);}
+.bg-aqua{background-color: rgb(65, 148, 187);}
+.list li{margin-bottom: 5px;}
+.list{padding:0 20px;
+      margin: 0;
+   }
+h4{ font-size:20px;
+    padding-bottom: 10px;
+   text-transform: capitalize;
+}
+.table{width:100%}
+.table td:nth-child(3), 
+.table td:nth-child(2){
+   color:rgb(92, 92, 92);
+}
+h1{
+   padding:0,0;
+   margin-bottom:5px;
+}
+
+h3{
+   margin-bottom: 5px;
+   font-size: 16px;
+   }
+.container p{
+   color:rgb(0, 0, 0);
+}
+#paragraph{
+   margin-bottom: 10px;
+}
+.container h1{
+   border-bottom: 2px;
+   padding-bottom: 3px;
+   border-bottom-style: solid;
+   border-color:antiquewhite;
+}
+.link-style{list-style: none;
+      padding:0;}
+.link-style li{margin-bottom: 7px;
+         padding-bottom: 5px;
+         border-bottom:1px solid saddlebrown;
+         
+      }
+.link-style li a{font-weight: bold;}
+h4{margin: 0;}
+.contact h2{text-align: center;
+
+}
+.form-group label{
+   display:block;
+   font-size: 16px;
+    color:azure;
+}
+.form-group input,
+.form-group textarea {
+   width:100%;
+   box-sizing: border-box;
+   border:none;
+   background-color:transparent;
+   border-bottom:1px solid black;
+   padding: 15px 0 10px;
+   outline:none;
+   font-family: inherit;
+   font-weight: 600;
+}
+.row{
+   display: flex;
+}
+.row > .form-group{
+   width:50%;
+   
+}
+.row > .form-group:first-child{
+   margin-right: 20px;
+}
+.btn{
+   color:black;
+   padding: 7px 13px;
+   background: rgb(255, 179, 37);
+   border:none;
+   cursor:pointer;
+   font-family:inherit;
+}
+.btn:hover{
+   opacity: 0.85;
+   transition: 0.1s;
+} 
