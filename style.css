@@ -135,3 +135,17 @@ h4{margin: 0;}
    opacity: 0.85;
    transition: 0.1s;
 } 
+.music{display: flex;}
+.music > .form-group{
+   width:50%;
+   
+}
+.music > .form-group:first-child{
+   margin-right: 20px;
+   margin-top: 8px;
+   
+   
+
+
+   
+}
