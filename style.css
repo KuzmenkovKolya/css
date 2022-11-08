@@ -42,14 +42,16 @@ a:hover{text-decoration: underline;
 a:active{color:aqua;}
 .cards{background-color: rgb(89, 172, 187);
    border-radius:15px;
-   padding:15px 40px;
+   padding:15px 20px;
    margin-bottom: 20px;
 }
 .bg-purple{background-color: inherit;}
 .bg-blue{background-color: rgb(85, 79, 182);}
 .bg-aqua{background-color: rgb(65, 148, 187);}
-.list li{margin-bottom: 5px;}
-.list{padding:0 20px;
+.list li{list-style-position:inside;
+   margin-bottom: 5px;
+   }
+.list{padding:0 0;
       margin: 0;
    }
 h4{ font-size:20px;
