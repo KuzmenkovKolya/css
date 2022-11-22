@@ -71,13 +71,14 @@
 
 
  //7 Булевая Лог
-const name = prompt('как вас зовут?')
+
+let name = prompt('как вас зовут?')
 if ( name === 'Slava'  ) 
     alert('Спасибо что не соврал')
-if ( name ==='slava') 
+else if ( name ==='slava') 
     alert('Спасибо что не соврал')
-if (name === 'Слава') alert('Спасибо что не соврал')
-if (name === 'Славик') alert('Спасибо что не соврал')
-if (name === 'слава') alert('Спасибо что не соврал')
-if (name === 'славик') alert('Спасибо что не соврал')
-else alert('Врёшь!!!')
+else if (name === 'Слава') alert('Спасибо что не соврал')
+else if (name === 'Славик') alert('Спасибо что не соврал')
+else if (name === 'слава') alert('Спасибо что не соврал')
+else if (name === 'славик') alert('Спасибо что не соврал')
+else {alert('Врёшь!!!')}
